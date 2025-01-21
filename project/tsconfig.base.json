@@ -23,9 +23,13 @@
       "@project/account/configuration": [
         "libs/account/configuration/src/index.ts"
       ],
-      "@project/blog/configuration": ["libs/blog/configuration/src/index.ts"],
       "@project/blog/comment": ["libs/blog/comment/src/index.ts"],
+      "@project/blog/configuration": ["libs/blog/configuration/src/index.ts"],
       "@project/blog/post": ["libs/blog/post/src/index.ts"],
+      "@project/notify/config": ["libs/notify/config/src/index.ts"],
+      "@project/notify/email-subscriber": [
+        "libs/notify/email-subscriber/src/index.ts"
+      ],
       "@project/shared/core": ["libs/shared/core/src/index.ts"],
       "@project/shared/data-access": ["libs/shared/data-access/src/index.ts"],
       "@project/shared/helpers": ["libs/shared/helpers/src/index.ts"]
